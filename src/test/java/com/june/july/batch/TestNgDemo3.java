@@ -1,59 +1,54 @@
 package com.june.july.batch;
 
+import org.testng.annotations.Test;
 import org.testng.annotations.*;
 
 
-public class TestNgDemo {
+public class TestNgDemo3 extends LaunchBrowser{
 
-	@BeforeTest
-	public void openBrowser() {
-		System.err.println("Open Browser");
+	@BeforeMethod
+	public void report() {
+		System.out.println("****** Before method Report ******");
 	}
-
-	@Test(priority=1)
-	public void openURL() {
-		System.out.println("Open URL");
+ 
+	@AfterMethod
+	public void afterReport() {
+		System.out.println("****** After method Report ******");
 	}
-
-	@Test(priority=2)
+	@Test()
 	public void searchProduct() {
 		System.out.println("Search iphone8");
 	}
 
-	@Test(priority=3)
+	@Test(dependsOnMethods ="searchProduct")
 	public void plp() {
 		System.out.println("PLP Page");
 	}
 
-	@Test(priority=4)
+	@Test 
 	public void pdp() {
 		System.out.println("PDP");
 	}
 
-	@Test(priority=5)
+	@Test 
 	public void addToCart() {
 		System.out.println("add to cart");
 	}
 
-	@Test(priority=6)
+	@Test 
 	public void addAddress() {
 		System.out.println("Add address");
 	}
 
-	@Test(priority=7)
+	@Test 
 	public void paymentCOd() {
 		System.out.println("Cod payment");
 	}
 
-	@Test(priority=8)
+	@Test 
 	public void logOut() {
 		System.out.println("Logout  ");
 	}
 
-	@AfterTest
-	public void closeBrowser() {
-		System.err.println("closeBrowser  ");
-
-	}
-
+	 
 }

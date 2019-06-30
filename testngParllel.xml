@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parllel Execution example" parallel="classes"
+	thread-count="2">
+<!-- 	<listeners>
+		<listener class-name="day11.DemoITestListener" />
+	</listeners> -->
+	<test name="Test">
+		<classes>
+			
+			<class name="com.june.july.batch.TestNgDemo2" />
+			<class name="com.june.july.batch.TestNgDemo3" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
