@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Parllel Execution example"   parallel="classes" 
-	thread-count="2"><!-- parallel="classes" -->
-<!-- 	<listeners>
-		<listener class-name="day11.DemoITestListener" />
-	</listeners> -->
-	<test name="Test">
+<suite name="Suite" parallel="classes">
+	<test thread-count="5" name="Test">
 		<classes>
-			
+			<class name="com.june.july.batch.TestNgDemo" />
 			<class name="com.june.july.batch.Reports" />
+
+			<class name="com.june.july.batch.TestNGAnnotation" />
 			<class name="com.june.july.batch.Reports2" />
+			<class name="com.june.july.batch.TestNGAnnotations" />
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

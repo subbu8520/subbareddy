@@ -7,7 +7,7 @@ import org.testng.annotations.*;
 
 public class LaunchBrowser {
 	protected WebDriver driver;
-	@BeforeSuite
+	//@BeforeSuite
 	@BeforeClass
 	public void launchBrowser() {
 		System.setProperty(ChromeDriverService.CHROME_DRIVER_EXE_PROPERTY,
@@ -15,14 +15,13 @@ public class LaunchBrowser {
 
 		driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
-		driver.get("https://www.amazon.com");
-		
+		 
 		System.err.println("******** Open browser **********");
 
 		System.err.println("******** URL **********");
 	}
 
-	@AfterSuite
+//	@AfterSuite
 	@AfterClass
 	public void closeBrowser() {
 		System.err.println("******** close browser **********");
