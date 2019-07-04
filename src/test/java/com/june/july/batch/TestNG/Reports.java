@@ -1,10 +1,10 @@
-package com.june.july.batch;
+package com.june.july.batch.TestNG;
 
 import org.testng.annotations.Test;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-public class Reports2 extends LaunchBrowser {
+public class Reports extends LaunchBrowser {
 	
 	@Test
 	public void amazon() {

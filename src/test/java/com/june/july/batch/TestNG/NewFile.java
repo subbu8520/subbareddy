@@ -1,4 +1,4 @@
-package com.june.july.batch;
+package com.june.july.batch.TestNG;
 
 public class NewFile {
 

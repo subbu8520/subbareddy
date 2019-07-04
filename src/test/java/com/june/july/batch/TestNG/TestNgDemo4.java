@@ -1,4 +1,4 @@
-package com.june.july.batch;
+package com.june.july.batch.TestNG;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.*;
