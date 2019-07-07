@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Parllel Execution example]" parallel="classes">
+  <listeners>
+    <listener class-name="com.june.july.batch.ReportITestListener"/>
+  </listeners>
+  <test thread-count="2" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.june.july.batch.TestNgDemo2">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="logOut"/>
+          <include name="paymentCOd"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.june.july.batch.TestNgDemo2 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Parllel Execution example] -->

@@ -1,9 +1,12 @@
 package com.june.july.batch.TestNG;
 
 import org.testng.annotations.Test;
+import org.testng.Assert;
+import org.testng.Reporter;
+import org.testng.SkipException;
 import org.testng.annotations.*;
 
-
+@Listeners(ReportListener.class)
 public class TestNgDemo {
 
 	@BeforeTest
@@ -14,6 +17,7 @@ public class TestNgDemo {
 	@Test(priority=1)
 	public void openURL() {
 		System.out.println("Open URL");
+		Reporter.log("User is opening url");
 	}
 
 	@Test(priority=2)
@@ -34,6 +38,7 @@ public class TestNgDemo {
 	@Test(priority=5)
 	public void addToCart() {
 		System.out.println("add to cart");
+		throw new SkipException("skip..");
 	}
 
 	@Test(priority=6)
@@ -48,7 +53,9 @@ public class TestNgDemo {
 
 	@Test(priority=8)
 	public void logOut() {
+		
 		System.out.println("Logout  ");
+		Assert.fail("fail");
 	}
 
 	@AfterTest

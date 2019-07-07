@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>7/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Jun 30 09:05:52 IST 2019</td>
+<td>Started on:</td><td>Thu Jul 04 08:34:44 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6639 ms)</td>
+<tr><td>Total time:</td><td>22 seconds (22216 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,49 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.june.july.batch.TestNgDemo2.logOut()'><b>logOut</b><br>Test class: com.june.july.batch.TestNgDemo2<br/>
+<a href="#Output-1394178911" onClick='toggleBox("Output-1394178911", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1394178911" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1394178911">
+Test on start logOut<br/>
+Test on failure logOut<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: Fail...
+	at com.june.july.batch.TestNgDemo2.logOut(TestNgDemo2.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 11 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1394178911", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1394178911'><pre>java.lang.AssertionError: Fail...
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.june.july.batch.TestNgDemo2.logOut(TestNgDemo2.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
+<td>0</td>
+<td>com.june.july.batch.TestNgDemo2@5e3a8624</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,45 +118,142 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.june.july.batch.TestNgDemo3.addAddress()'><b>addAddress</b><br>Test class: com.june.july.batch.TestNgDemo3</td>
+<td title='com.june.july.batch.TestNgDemo2.addAddress()'><b>addAddress</b><br>Test class: com.june.july.batch.TestNgDemo2<br/>
+<a href="#Output-928676507" onClick='toggleBox("Output-928676507", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-928676507" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-928676507">
+Test on start addAddress<br/>
+Test on success  addAddress<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>com.june.july.batch.TestNgDemo3@1bce4f0a</td></tr>
+<td>com.june.july.batch.TestNgDemo2@5e3a8624</td></tr>
 <tr>
-<td title='com.june.july.batch.TestNgDemo3.addToCart()'><b>addToCart</b><br>Test class: com.june.july.batch.TestNgDemo3</td>
+<td title='com.june.july.batch.TestNgDemo2.addToCart()'><b>addToCart</b><br>Test class: com.june.july.batch.TestNgDemo2<br/>
+<a href="#Output-930304392" onClick='toggleBox("Output-930304392", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-930304392" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-930304392">
+Test on start addToCart<br/>
+Test on success  addToCart<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>com.june.july.batch.TestNgDemo3@1bce4f0a</td></tr>
+<td>com.june.july.batch.TestNgDemo2@5e3a8624</td></tr>
 <tr>
-<td title='com.june.july.batch.TestNgDemo3.logOut()'><b>logOut</b><br>Test class: com.june.july.batch.TestNgDemo3</td>
+<td title='com.june.july.batch.Reports2.amazon()'><b>amazon</b><br>Test class: com.june.july.batch.Reports2<br/>
+<a href="#Output-1280463827" onClick='toggleBox("Output-1280463827", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1280463827" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1280463827">
+Test on start amazon<br/>
+User is launching amazon<br/>
+Amazon site launched<br/>
+Test on success  amazon<br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>com.june.july.batch.TestNgDemo3@1bce4f0a</td></tr>
+<td>13</td>
+<td>com.june.july.batch.Reports2@91161c7</td></tr>
 <tr>
-<td title='com.june.july.batch.TestNgDemo3.paymentCOd()'><b>paymentCOd</b><br>Test class: com.june.july.batch.TestNgDemo3</td>
+<td title='com.june.july.batch.Reports.amazon()'><b>amazon</b><br>Test class: com.june.july.batch.Reports<br/>
+<a href="#Output-515210398" onClick='toggleBox("Output-515210398", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-515210398" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-515210398">
+Test on start amazon<br/>
+User is launching amazon<br/>
+Amazon site launched<br/>
+Test on success  amazon<br/>
+</div>
+</td>
 <td></td>
-<td>0</td>
-<td>com.june.july.batch.TestNgDemo3@1bce4f0a</td></tr>
+<td>18</td>
+<td>com.june.july.batch.Reports@5c3bd550</td></tr>
 <tr>
-<td title='com.june.july.batch.TestNgDemo3.pdp()'><b>pdp</b><br>Test class: com.june.july.batch.TestNgDemo3</td>
+<td title='com.june.july.batch.TestNgDemo2.pdp()'><b>pdp</b><br>Test class: com.june.july.batch.TestNgDemo2<br/>
+<a href="#Output-1914042280" onClick='toggleBox("Output-1914042280", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1914042280" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1914042280">
+Test on start pdp<br/>
+Test on success  pdp<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>com.june.july.batch.TestNgDemo3@1bce4f0a</td></tr>
+<td>com.june.july.batch.TestNgDemo2@5e3a8624</td></tr>
 <tr>
-<td title='com.june.july.batch.TestNgDemo3.plp()'><b>plp</b><br>Test class: com.june.july.batch.TestNgDemo3</td>
+<td title='com.june.july.batch.TestNgDemo2.plp()'><b>plp</b><br>Test class: com.june.july.batch.TestNgDemo2<br/>
+<a href="#Output-1486838264" onClick='toggleBox("Output-1486838264", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1486838264" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1486838264">
+Test on start plp<br/>
+Test on success  plp<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>com.june.july.batch.TestNgDemo3@1bce4f0a</td></tr>
+<td>com.june.july.batch.TestNgDemo2@5e3a8624</td></tr>
 <tr>
-<td title='com.june.july.batch.TestNgDemo2.searchProduct()'><b>searchProduct</b><br>Test class: com.june.july.batch.TestNgDemo2</td>
+<td title='com.june.july.batch.TestNgDemo2.searchProduct()'><b>searchProduct</b><br>Test class: com.june.july.batch.TestNgDemo2<br/>
+<a href="#Output-1216600483" onClick='toggleBox("Output-1216600483", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1216600483" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1216600483">
+Test on start searchProduct<br/>
+Test on success  searchProduct<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>com.june.july.batch.TestNgDemo2@3bfdc050</td></tr>
+<td>com.june.july.batch.TestNgDemo2@5e3a8624</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='com.june.july.batch.TestNgDemo3.searchProduct()'><b>searchProduct</b><br>Test class: com.june.july.batch.TestNgDemo3</td>
-<td></td>
+<td title='com.june.july.batch.TestNgDemo2.paymentCOd()'><b>paymentCOd</b><br>Test class: com.june.july.batch.TestNgDemo2<br/>
+<a href="#Output-1059957629" onClick='toggleBox("Output-1059957629", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1059957629" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1059957629">
+Test on start paymentCOd<br/>
+Test on skip paymentCOd<br/>
+</div>
+</td>
+<td><div><pre>org.testng.SkipException: Skiping this methods..
+	at com.june.july.batch.TestNgDemo2.paymentCOd(TestNgDemo2.java:39)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 10 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1059957629", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1059957629'><pre>org.testng.SkipException: Skiping this methods..
+	at com.june.july.batch.TestNgDemo2.paymentCOd(TestNgDemo2.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+</pre></div></td>
 <td>0</td>
-<td>com.june.july.batch.TestNgDemo3@1bce4f0a</td></tr>
+<td>com.june.july.batch.TestNgDemo2@5e3a8624</td></tr>
 </table><p>
 </body>
 </html>

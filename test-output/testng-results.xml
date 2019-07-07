@@ -1,119 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Parllel Execution example" duration-ms="6639" started-at="2019-06-30T03:35:52Z" finished-at="2019-06-30T03:35:59Z">
+  <suite name="Default suite" duration-ms="23654" started-at="2019-07-07T04:00:40Z" finished-at="2019-07-07T04:01:04Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="6639" started-at="2019-06-30T03:35:52Z" finished-at="2019-06-30T03:35:59Z">
-      <class name="com.june.july.batch.TestNgDemo2">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.june.july.batch.TestNgDemo2@3bfdc050]" name="launchBrowser" is-config="true" duration-ms="5126" started-at="2019-06-30T03:35:52Z" finished-at="2019-06-30T03:35:57Z">
+    <test name="Default test" duration-ms="23654" started-at="2019-07-07T04:00:40Z" finished-at="2019-07-07T04:01:04Z">
+      <class name="LaunchBrowser.LaunchBw">
+        <test-method status="PASS" signature="launchBw()[pri:0, instance:LaunchBrowser.LaunchBw@77caeb3e]" name="launchBw" is-config="true" duration-ms="9219" started-at="2019-07-07T04:00:40Z" finished-at="2019-07-07T04:00:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.june.july.batch.TestNgDemo2@3bfdc050]" name="searchProduct" duration-ms="7" started-at="2019-06-30T03:35:57Z" finished-at="2019-06-30T03:35:57Z">
+        </test-method> <!-- launchBw -->
+        <test-method status="PASS" signature="test()[pri:0, instance:LaunchBrowser.LaunchBw@77caeb3e]" name="test" duration-ms="14244" started-at="2019-07-07T04:00:49Z" finished-at="2019-07-07T04:01:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.june.july.batch.TestNgDemo2@3bfdc050]" name="closeBrowser" is-config="true" duration-ms="101" started-at="2019-06-30T03:35:57Z" finished-at="2019-06-30T03:35:57Z">
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="close()[pri:0, instance:LaunchBrowser.LaunchBw@77caeb3e]" name="close" is-config="true" duration-ms="171" started-at="2019-07-07T04:01:03Z" finished-at="2019-07-07T04:01:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.june.july.batch.TestNgDemo2 -->
-      <class name="com.june.july.batch.TestNgDemo3">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="launchBrowser" is-config="true" duration-ms="6389" started-at="2019-06-30T03:35:52Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="report" is-config="true" duration-ms="0" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="addAddress()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="addAddress" duration-ms="6" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addAddress -->
-        <test-method status="PASS" signature="addToCart()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="addToCart" duration-ms="2" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addToCart -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="report" is-config="true" duration-ms="0" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="afterReport()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="afterReport" is-config="true" duration-ms="0" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterReport -->
-        <test-method status="PASS" signature="afterReport()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="afterReport" is-config="true" duration-ms="0" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterReport -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="report" is-config="true" duration-ms="3" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="logOut()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="logOut" duration-ms="1" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logOut -->
-        <test-method status="PASS" signature="afterReport()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="afterReport" is-config="true" duration-ms="1" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterReport -->
-        <test-method status="PASS" signature="pdp()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="pdp" duration-ms="1" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- pdp -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="report" is-config="true" duration-ms="0" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="afterReport()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="afterReport" is-config="true" duration-ms="0" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterReport -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="report" is-config="true" duration-ms="1" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="searchProduct()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="searchProduct" duration-ms="1" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- searchProduct -->
-        <test-method status="PASS" signature="afterReport()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="afterReport" is-config="true" duration-ms="0" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterReport -->
-        <test-method status="PASS" signature="paymentCOd()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="paymentCOd" duration-ms="2" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- paymentCOd -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="report" is-config="true" duration-ms="0" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="afterReport()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="afterReport" is-config="true" duration-ms="1" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterReport -->
-        <test-method status="PASS" signature="report()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="report" is-config="true" duration-ms="1" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- report -->
-        <test-method status="PASS" signature="plp()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="plp" duration-ms="1" started-at="2019-06-30T03:35:59Z" depends-on-methods="com.june.july.batch.TestNgDemo3.searchProduct" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- plp -->
-        <test-method status="PASS" signature="afterReport()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="afterReport" is-config="true" duration-ms="1" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterReport -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.june.july.batch.TestNgDemo3@1bce4f0a]" name="closeBrowser" is-config="true" duration-ms="191" started-at="2019-06-30T03:35:59Z" finished-at="2019-06-30T03:35:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.june.july.batch.TestNgDemo3 -->
-    </test> <!-- Test -->
-  </suite> <!-- Parllel Execution example -->
+        </test-method> <!-- close -->
+      </class> <!-- LaunchBrowser.LaunchBw -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

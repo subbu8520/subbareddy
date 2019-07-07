@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 20, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 37.357 sec <<< FAILURE!
+logOut(com.june.july.batch.TestNG.TestNgDemo2)  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.AssertionError: Fail...
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.june.july.batch.TestNG.TestNgDemo2.logOut(TestNgDemo2.java:46)
+
