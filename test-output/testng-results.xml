@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="23654" started-at="2019-07-07T04:00:40Z" finished-at="2019-07-07T04:01:04Z">
+  <suite name="Default suite" duration-ms="31097" started-at="2019-07-08T03:31:46Z" finished-at="2019-07-08T03:32:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="23654" started-at="2019-07-07T04:00:40Z" finished-at="2019-07-07T04:01:04Z">
-      <class name="LaunchBrowser.LaunchBw">
-        <test-method status="PASS" signature="launchBw()[pri:0, instance:LaunchBrowser.LaunchBw@77caeb3e]" name="launchBw" is-config="true" duration-ms="9219" started-at="2019-07-07T04:00:40Z" finished-at="2019-07-07T04:00:49Z">
+    <test name="Default test" duration-ms="31097" started-at="2019-07-08T03:31:46Z" finished-at="2019-07-08T03:32:17Z">
+      <class name="seleniumPrograms.ByID">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:seleniumPrograms.ByID@7cd62f43]" name="launchBrowser" is-config="true" duration-ms="1910" started-at="2019-07-08T03:31:46Z" finished-at="2019-07-08T03:31:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBw -->
-        <test-method status="PASS" signature="test()[pri:0, instance:LaunchBrowser.LaunchBw@77caeb3e]" name="test" duration-ms="14244" started-at="2019-07-07T04:00:49Z" finished-at="2019-07-07T04:01:03Z">
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="locateByID()[pri:0, instance:seleniumPrograms.ByID@7cd62f43]" name="locateByID" duration-ms="29056" started-at="2019-07-08T03:31:48Z" finished-at="2019-07-08T03:32:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="close()[pri:0, instance:LaunchBrowser.LaunchBw@77caeb3e]" name="close" is-config="true" duration-ms="171" started-at="2019-07-07T04:01:03Z" finished-at="2019-07-07T04:01:04Z">
+        </test-method> <!-- locateByID -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:seleniumPrograms.ByID@7cd62f43]" name="closeBrowser" is-config="true" duration-ms="105" started-at="2019-07-08T03:32:17Z" finished-at="2019-07-08T03:32:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- close -->
-      </class> <!-- LaunchBrowser.LaunchBw -->
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- seleniumPrograms.ByID -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

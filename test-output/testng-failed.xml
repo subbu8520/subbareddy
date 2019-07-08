@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="recordVideos.DemoScreenRecord">
+      <class name="seleniumPrograms.ByID">
         <methods>
           <include name="closeBrowser"/>
+          <include name="locateByID"/>
           <include name="launchBrowser"/>
-          <include name="startRecord"/>
-          <include name="test"/>
-          <include name="stop"/>
         </methods>
-      </class> <!-- recordVideos.DemoScreenRecord -->
+      </class> <!-- seleniumPrograms.ByID -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
