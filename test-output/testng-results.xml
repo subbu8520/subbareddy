@@ -2,24 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31097" started-at="2019-07-08T03:31:46Z" finished-at="2019-07-08T03:32:17Z">
+  <suite name="Default suite" duration-ms="6962" started-at="2019-07-09T03:39:37Z" finished-at="2019-07-09T03:39:44Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31097" started-at="2019-07-08T03:31:46Z" finished-at="2019-07-08T03:32:17Z">
-      <class name="seleniumPrograms.ByID">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:seleniumPrograms.ByID@7cd62f43]" name="launchBrowser" is-config="true" duration-ms="1910" started-at="2019-07-08T03:31:46Z" finished-at="2019-07-08T03:31:48Z">
+    <test name="Default test" duration-ms="6962" started-at="2019-07-09T03:39:37Z" finished-at="2019-07-09T03:39:44Z">
+      <class name="seleniumPrograms.PrintAllLinks">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:seleniumPrograms.PrintAllLinks@87f383f]" name="openBrowser" duration-ms="6924" started-at="2019-07-09T03:39:37Z" finished-at="2019-07-09T03:39:44Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="locateByID()[pri:0, instance:seleniumPrograms.ByID@7cd62f43]" name="locateByID" duration-ms="29056" started-at="2019-07-08T03:31:48Z" finished-at="2019-07-08T03:32:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- locateByID -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:seleniumPrograms.ByID@7cd62f43]" name="closeBrowser" is-config="true" duration-ms="105" started-at="2019-07-08T03:32:17Z" finished-at="2019-07-08T03:32:17Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- seleniumPrograms.ByID -->
+        </test-method> <!-- openBrowser -->
+      </class> <!-- seleniumPrograms.PrintAllLinks -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
