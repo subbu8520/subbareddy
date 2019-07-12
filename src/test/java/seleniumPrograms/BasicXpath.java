@@ -29,6 +29,8 @@ public class BasicXpath {
 		//input[@id='pass']//following::input[@id="xyz]
 		//input[@value='Log In']//preceding::input[@id='email']
 		//input[@value='Log In']//preceding::input[2]
+		
+		//input[contains(@name,'email') and @id='email']
 	}
 	
 	@AfterTest
