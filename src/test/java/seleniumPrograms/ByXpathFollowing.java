@@ -21,12 +21,14 @@ public class ByXpathFollowing {
 		ops.addArguments("--disable-notifications");
 		driver = new ChromeDriver(ops);
 		driver.manage().window().fullscreen();
+		String mk = "Sensex";
 		driver.get("https://www.marketwatch.com/investing/index/comp");
-		WebElement asia= driver.findElement(By.xpath("//*[text()='Asia Dow']//following::td[1]"));
+		String market = "//*[text()='MARKETNAME']//following::td[1]";
+		String result = market.replace("MARKETNAME", mk);
+		WebElement asia = driver.findElement(By.xpath(result));
 		System.out.println(asia.getText());
 		
-		
-
+		 
 	}
 
 	@AfterTest

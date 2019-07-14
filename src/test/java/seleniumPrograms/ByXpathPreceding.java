@@ -18,18 +18,9 @@ public class ByXpathPreceding {
 		driver = new ChromeDriver();
 		driver.manage().window().fullscreen();
 		driver.get("https://www.facebook.com");
-		driver.findElement(By.xpath("//input[@id='u_0_8']//preceding::td/input[@id='email']")).sendKeys("dummy");
-		driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("dummy");
-		driver.findElement(By.xpath("//input[@type='submit']")).click();
-		driver.navigate().back();					////*[text()='Birthday']
-		String text = driver.findElement(By.xpath("//*[contains(text(),'Create an account')]")).getText();
-		Assert.assertEquals("Create an account", text);
-		
-		driver.findElement(By.xpath("//*[contains(@name,'first')]")).sendKeys("arvind");
-		driver.findElement(By.xpath("//*[starts-with(@name,'las')]")).sendKeys("sharma");
-		Boolean b = driver.findElement(By.xpath("//*[text()='Birthday']")).isDisplayed();
-		System.out.println("Birthday is "+ b);
-	}////a[text()='Zee Entertain' and @title='equity']//following::td
+		driver.findElement(By.xpath("//*[text()='Female']//preceding::input[1]")).click();
+		 
+	}
 
 	@AfterTest
 	public void closeBrowser() {

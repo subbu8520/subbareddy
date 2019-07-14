@@ -2,6 +2,7 @@ package seleniumPrograms;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
 
 public class ByCssID extends launchBrowser {
@@ -13,9 +14,15 @@ public class ByCssID extends launchBrowser {
 		/**
 		 * CSS Selector using ID #
 		 */
-		
-		driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("samsung 9",Keys.ENTER);
 		 
+		driver.findElement(By.cssSelector("#twotabsearchtextbox")).sendKeys("iphone Xs",Keys.ENTER);
+		Thread.sleep(1000);
+}
+	@AfterTest()
+	public void close() {
+		driver.quit();
+	}
 
-	
-}}
+
+}
+
