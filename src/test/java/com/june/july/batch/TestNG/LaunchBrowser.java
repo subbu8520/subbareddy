@@ -17,8 +17,9 @@ public class LaunchBrowser {
 		ops.addArguments("disable-infobars");
 		ops.addArguments("--disable-notifications");
 		ops.setAcceptInsecureCerts(true);
-		ops.setHeadless(false);
+
 		driver = new ChromeDriver(ops);
+		driver.manage().window().fullscreen();
 	}
 
 	@AfterClass

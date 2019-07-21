@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8451" started-at="2019-07-12T03:25:24Z" finished-at="2019-07-12T03:25:32Z">
+  <suite name="Default suite" duration-ms="12703" started-at="2019-07-15T03:34:38Z" finished-at="2019-07-15T03:34:51Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8451" started-at="2019-07-12T03:25:24Z" finished-at="2019-07-12T03:25:32Z">
-      <class name="seleniumPrograms.ByXpathFollowing">
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:seleniumPrograms.ByXpathFollowing@69b0fd6f]" name="openBrowser" duration-ms="7952" started-at="2019-07-12T03:25:24Z" finished-at="2019-07-12T03:25:32Z">
+    <test name="Default test" duration-ms="12703" started-at="2019-07-15T03:34:38Z" finished-at="2019-07-15T03:34:51Z">
+      <class name="SeleniumMethod.SelectMultiselect">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:SeleniumMethod.SelectMultiselect@4671e53b]" name="launchBrowser" is-config="true" duration-ms="2967" started-at="2019-07-15T03:34:38Z" finished-at="2019-07-15T03:34:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:seleniumPrograms.ByXpathFollowing@69b0fd6f]" name="closeBrowser" is-config="true" duration-ms="398" started-at="2019-07-12T03:25:32Z" finished-at="2019-07-12T03:25:32Z">
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="selectDropdown()[pri:0, instance:SeleniumMethod.SelectMultiselect@4671e53b]" name="selectDropdown" duration-ms="9499" started-at="2019-07-15T03:34:41Z" finished-at="2019-07-15T03:34:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectDropdown -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:SeleniumMethod.SelectMultiselect@4671e53b]" name="closeBrowser" is-config="true" duration-ms="183" started-at="2019-07-15T03:34:51Z" finished-at="2019-07-15T03:34:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- seleniumPrograms.ByXpathFollowing -->
+      </class> <!-- SeleniumMethod.SelectMultiselect -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
