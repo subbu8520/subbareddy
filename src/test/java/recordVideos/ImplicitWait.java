@@ -18,9 +18,9 @@ public class ImplicitWait {
 		driver.get("http://toolsqa.com/handling-alerts-using-selenium-webdriver/");
 		
 		WebElement ele = driver.findElement(By.xpath("//button[text()='Simple Alert']"));
-		waitTillElementClikable(10, ele);
-		waitALertAndAccept(13);
-		
+//		waitTillElementClikable(10, ele);
+//		waitALertAndAccept(13);
+//		
 		 
 		 
 
@@ -30,18 +30,19 @@ public class ImplicitWait {
 	 * 
 	 * @param timeInSeconds
 	 */
-	public static void waitALertAndAccept(int timeInSeconds) {
-		WebDriverWait wait = new WebDriverWait(driver, timeInSeconds);
-		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
-		alert.accept();
+//	public static void waitALertAndAccept(int timeInSeconds) {
+//		WebDriverWait wait = new WebDriverWait(driver, timeInSeconds);
+//		
+//		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
+//		alert.accept();
+//
+//	}
 
-	}
-
-	public static void waitTillElementClikable(int time,WebElement element) {
-		WebDriverWait wait = new WebDriverWait(driver, time);
-		wait.until(ExpectedConditions.elementToBeClickable(element)).click();;
-		
-	}
+//	public static void waitTillElementClikable(int time,WebElement element) {
+//		WebDriverWait wait = new WebDriverWait(driver, time);
+//		wait.until(ExpectedConditions.elementToBeClickable(element)).click();;
+//		
+//	}
 	
 	
 	

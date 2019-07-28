@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.*;
 
 public class LaunchBrowser {
-	protected WebDriver driver;
+	protected   WebDriver driver;
 
 	@BeforeClass
 	public void launchBrowser() {
@@ -16,7 +16,7 @@ public class LaunchBrowser {
 		ChromeOptions ops = new ChromeOptions();
 		ops.addArguments("disable-infobars");
 		ops.addArguments("--disable-notifications");
-		ops.setAcceptInsecureCerts(true);
+		 
 
 		driver = new ChromeDriver(ops);
 		driver.manage().window().fullscreen();
